@@ -1,8 +1,9 @@
 import os
 import gzip
 import magic
+from pathlib import Path
 
-def read_file_reverse(file_path, chunk_size=40960):
+def read_file_reverse(file_path: Path, chunk_size=40960):
     """Reads a regular or compressed (.gz) text file line by line in reverse order using chunk-based processing."""
     mime = magic.Magic(mime=True)
     file_type = mime.from_file(file_path)

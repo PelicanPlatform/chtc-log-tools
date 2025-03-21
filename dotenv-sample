@@ -1,0 +1,3 @@
+# Sample python ".env" file. Copy this into .env
+# And update keys as appropriate to configure the application
+TIME_KEY="time"

@@ -4,6 +4,7 @@ name = "chtc-logs-tool"
 dependencies = [
     "typer",
     "pytz",
+    "dotenv",
     "python-magic"
 ]
 
